@@ -2,17 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Assistant Professor</a>. IISER Bhopal.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>D</p>
-    <p>I</p>
-    <p>B</p>
-    <p>Bh</p>
+    <p>Department of Mathematics</p>
+    <p>IISER Bhopal</p>
+    <p>Bhopal Bypass Road</p>
+    <p>Bhopal 462066</p>
 
 selected_papers: false # true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
