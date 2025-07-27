@@ -2,17 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Assistant Professor</a>. IISER Bhopal.
+subtitle: <a href='#'>Assistant Professor</a>. <a href="https://maths.iiserb.ac.in/">Department of Mathematics</a>. <a href="https://www.iiserb.ac.in/">IISER Bhopal</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Department of Mathematics</p>
-    <p>IISER Bhopal</p>
-    <p>Bhopal Bypass Road</p>
-    <p>Bhopal 462066</p>
+  # more_info: >
+  #   <p>Department of Mathematics</p>
+  #   <p>IISER Bhopal</p>
+  #   <p>Bhopal Bypass Road</p>
+  #   <p>Bhopal 462066</p>
 
 selected_papers: false # true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
