@@ -171,9 +171,15 @@
     {% endif %}
     {% if entry.number %}
       {% capture entrynumber %}{{ " " }}no. {{ entry.number }},{% endcapture %}
+    {% else %}
+      {% capture entrynumber %}{{ "" }}{% endcapture %}
     {% endif %}
     {% if entry.pages %}
-      {% capture entrypages %}{{ " " }}{{ entry.pages }}{% endcapture %}
+      {% if entry.pages contains 'Paper' %}
+        {% capture entrypages %}{{ " " }}{{ entry.pages }}{{ " pp." }}{% endcapture %}
+      {% else %}
+        {% capture entrypages %}{{ " " }}{{ entry.pages }}{% endcapture %}
+      {% endif %}
     {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
