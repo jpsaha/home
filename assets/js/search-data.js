@@ -80,13 +80,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/home/projects/9_project/";
             },},{
-        id: 'social-discord',
-        title: 'Discord Server',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://discord.gg/55adEhUWdK", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
