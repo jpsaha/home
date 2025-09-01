@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/home/publications/";
           },
-        },{id: "post-a-post-with-giscus-comments",
+        },{id: "post-mth102-linear-algebra",
+        
+          title: "MTH102 (Linear algebra)",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/home/blog/2025/mth102/";
+          
+        },
+      },{id: "post-a-post-with-giscus-comments",
         
           title: "a post with giscus comments",
         
